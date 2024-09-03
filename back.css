@@ -1,0 +1,25 @@
+#labirinto {
+    display: grid;
+    grid-template-columns: repeat(15, 50px);
+    grid-gap: 1px;
+}
+.cell {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    background-color: rgb(138, 97, 204);
+}
+.player {
+    background-color: rgb(9, 11, 150);
+}
+.start {
+    background-color: red;
+    color: white;
+}
+.end {
+    background-color: green;
+    color: white;
+}
